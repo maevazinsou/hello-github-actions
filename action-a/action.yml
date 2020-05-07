@@ -1,0 +1,16 @@
+name: "Hello Actions"
+Description: "Greet someone"
+Author: "maeva.zinsou@etu.u-pec.fr"
+
+inputs: 
+MY_NAME:
+Descrption: "Who to greet"
+required: true
+default: "World"
+
+runs: 
+using: "docker"
+image: "Dockerfile"
+
+branding: "mic"
+color: "purple"
